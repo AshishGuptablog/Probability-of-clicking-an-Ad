@@ -24,17 +24,36 @@ Is_click	           | (target) when user clicked the ad (1- click , 0 -no click)
 
 
 2) 
-View log of the users (2018/10/15- 2018/12/11) from Abay's website
+View log of the users (2018/10/15- 2018/12/11) 
 
-view_log.csv
+**view_log.csv**
+
+Variable	           | Definition
+--------------------|---------------------------------------------------
+Server_time	        | Timestamp of the log            
+Device_type    	    | Device type of the user
+Session_id          | Browser session id
+User_id 	           | User id
+Item_id   	         | Item id
 
 
 3)
-item_data.csv
+
+**item_data.csv**
+
+Variable	           | Definition
+--------------------|---------------------------------------------------
+Item_id   	         | Item id          
+item_price     	    | price of the item
+category_1          | Category depth 1
+category_2          | Category depth 2
+category_3	         | Category depth 3
+product_type        |anonymized item type
+
+
 
 4)
 test.csv- impressions to predict the click rate
-
 
  
 
