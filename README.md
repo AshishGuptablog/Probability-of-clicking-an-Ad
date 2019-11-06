@@ -10,15 +10,16 @@ If a user comes to Azone's website and searches for a product and then visits th
 Train data contains the impression logs during 2018/11/15 - 2018/12/13 along with the label which specifies whether the ad is clicked or not
 
 **train.csv**
-Variable	           |             Definition
+
+Variable	           | Definition
 --------------------|---------------------------------------------------
-Impression_id	      |             Ad impression id            
-Impression_time	    |            Time of impression at partner website
-User_id	            |            User_id
-App_code	           |             Appication code for a partner website where the ad was shown
-Os_version	         |             Version of the operating system
-Is_4g	              |            1 using 4g, 0- no 4g
-Is_click	           |             (target) when user clicked the ad (1- click , 0 -no click)
+Impression_id	      | Ad impression id            
+Impression_time	    | Time of impression at partner website
+User_id	            | User_id
+App_code	           | Appication code for a partner website where the ad was shown
+Os_version	         | Version of the operating system
+Is_4g	              | 1 using 4g, 0- no 4g
+Is_click	           | (target) when user clicked the ad (1- click , 0 -no click)
 
 
 
